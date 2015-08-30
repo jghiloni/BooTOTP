@@ -32,3 +32,5 @@ security:
         name: Provider 3
         key: YETANOTHERBASE32KEY
 ```
+
+Start the app using `mvn spring-boot:run` and visit `http://localhost:8080`
