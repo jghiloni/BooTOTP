@@ -34,3 +34,8 @@ security:
 ```
 
 Start the app using `mvn spring-boot:run` and visit `http://localhost:8080`
+
+This was designed as an `@Enable`d library to allow users to secure their UI in whatever way they chose--and it is
+*HIGHLY* recommended that you secure this UI as much as you can. You may also disable the UI altogether by adding the
+property `security.totp.dashboardEnabled=false`, and simply take advantage of the `@Autowire`able bean of type
+`io.jdg.totp.service.OneTimePasswordGenerator`.
