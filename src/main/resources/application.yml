@@ -1,0 +1,13 @@
+security:
+  totp:
+    providers:
+      tumblr:
+        name: Provider 1
+        key: SOMEBASE32ENCODEDKEY
+      google:
+        name: Provider 2
+        key: SOMEOTHERBASE32ENCODEDKEY
+      slack:
+        name: Provider 3
+        key: YETANOTHERBASE32KEY
+        
